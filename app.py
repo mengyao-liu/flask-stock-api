@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect,url_for, flash
 from bokeh.plotting import figure, output_file, show
 import requests
-import json 
 import pandas as pd
     
 app = Flask(__name__)
